@@ -1,0 +1,13 @@
+---
+title: "Census"
+author: "Aditya Narayan"
+format: html
+---
+```{r}
+#| label: setup
+#| echo: false
+#| message: false
+library(tidyverse)
+read.csv("data/mass-tracts")
+```
+
